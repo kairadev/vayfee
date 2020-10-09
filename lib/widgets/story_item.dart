@@ -23,12 +23,13 @@ class StoryItem extends StatelessWidget {
             width: 68,
             height: 68,
             decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                gradient: LinearGradient(
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                  colors: storyBorderColor,
-                )),
+              shape: BoxShape.circle,
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: storyBorderColor,
+              ),
+            ),
             child: Padding(
               padding: const EdgeInsets.all(3.0),
               child: Container(
