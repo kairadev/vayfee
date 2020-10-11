@@ -64,7 +64,7 @@ List posts = [
     'profileImg':
         'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg',
     'postImg':
-        'https://images.pexels.com/photos/5269683/pexels-photo-5269683.jpeg',
+        'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg',
     'caption':
         'Safariye çıkmak için para biriktiriyorum. Umarım bu yaz gidebilirim.',
     'isLoved': false,

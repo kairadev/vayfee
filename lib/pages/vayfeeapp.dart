@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:vayfee/pages/home_page.dart';
 import 'package:vayfee/theme/colors.dart';
 
+import 'discovery_page.dart';
+
 class VayfeeApp extends StatefulWidget {
   @override
   _VayfeeAppState createState() => _VayfeeAppState();
@@ -22,16 +24,7 @@ class _VayfeeAppState extends State<VayfeeApp> {
   Widget getBody() {
     List<Widget> pages = [
       HomePage(),
-      Center(
-        child: Text(
-          'Keşfet',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 20,
-            color: white,
-          ),
-        ),
-      ),
+      DiscoveryPage(),
       Center(
         child: Text(
           'Bildirim',
@@ -60,6 +53,7 @@ class _VayfeeAppState extends State<VayfeeApp> {
     );
   }
 
+  // ignore: missing_return
   Widget getAppBar() {
     if (pageIndex == 0) {
       return AppBar(

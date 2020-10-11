@@ -1,4 +1,4 @@
-package com.example.vayfee
+package com.kairadev.vayfee
 
 import io.flutter.embedding.android.FlutterActivity
 

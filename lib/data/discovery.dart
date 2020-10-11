@@ -12,61 +12,92 @@ List searchCategories = [
   'Yazılım',
 ];
 
-List searchImages = [
-  {
-    'id': 2,
-    'name': 'muharrem_nigar',
-    'fullname': 'muharrem nigar',
-    'profileImg':
-        'https://images.pexels.com/photos/5049875/pexels-photo-5049875.jpeg',
-    'postImg':
-        'https://images.pexels.com/photos/4212744/pexels-photo-4212744.jpeg',
-    'caption': ' Wu!',
-    'isLoved': false,
-    'isUnLoved': false,
-    'commentCount': 34,
-    'timeAgo': '7 gün'
-  },
-  {
-    'id': 4,
-    'name': 'sercancakir',
-    'fullname': 'sercan çakır',
-    'profileImg':
-        'https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg',
-    'postImg':
-        'https://images.pexels.com/photos/3354024/pexels-photo-3354024.jpeg',
-    'caption': ' Biraz keyif molası',
-    'isLoved': true,
-    'isUnLoved': false,
-    'commentCount': 33212,
-    'timeAgo': '2 ay'
-  },
+List posts = [
   {
     'id': 1,
+    'name': 'ayselgursu',
+    'fullName': 'aysel gürsu',
+    'profileImg':
+        'https://images.pexels.com/photos/4507269/pexels-photo-4507269.jpeg',
+    'videoUrl': 'assets/test_videos/video_1.mp4',
+    'caption': 'Güzel ışık',
+    'isLoved': false,
+    'isUnLoved': false,
+    'lovedCount': 4648,
+    'unLovedCount': 616,
+    'timeAgo': '7 saat',
+    'tag': 'naber',
+    'mention': 'tolga',
+    'isSaved': false,
+  },
+  {
+    'id': 2,
     'name': 'tolga',
-    'fullname': 'tolga akçaoğlu',
+    'fullName': 'tolga akçaoğlu',
     'profileImg':
         'https://images.pexels.com/photos/4626735/pexels-photo-4626735.jpeg',
-    'postImg':
-        'https://images.pexels.com/photos/4406725/pexels-photo-4406725.jpeg',
-    'caption': ' Ne güzel fotoğraf',
+    'videoUrl': 'assets/test_videos/video_2.mp4',
+    'caption':
+        'Şöyle sakalı salıp hacı dedeler gibi sandalyede oturmak.. var bi hayalimiz.',
     'isLoved': true,
     'isUnLoved': false,
-    'commentCount': 12,
-    'timeAgo': '1 gün'
+    'lovedCount': 12453,
+    'unLovedCount': 12,
+    'timeAgo': '1 gün',
+    'tag': '',
+    'mention': 'baran',
+    'isSaved': false,
   },
   {
     'id': 3,
-    'name': 'ak49',
-    'fullname': 'Berry',
+    'name': 'selvi',
+    'fullName': 'selvi uzun',
     'profileImg':
-        'https://images.pexels.com/photos/4654782/pexels-photo-4654782.jpeg',
-    'postImg':
-        'https://images.pexels.com/photos/5105049/pexels-photo-5105049.jpeg',
-    'caption': ' Ben Fero güzel bir rapçi Niggas',
+        'https://images.pexels.com/photos/2146042/pexels-photo-2146042.jpeg',
+    'videoUrl': 'assets/test_videos/video_3.mp4',
+    'caption': 'Çok iyi değil mi?',
+    'isLoved': true,
+    'isUnLoved': false,
+    'lovedCount': 3454,
+    'unLovedCount': 9,
+    'timeAgo': '2 gün',
+    'tag': 'TemizHava',
+    'mention': '',
+    'isSaved': false,
+  },
+  {
+    'id': 4,
+    'name': 'mehm_met',
+    'fullName': 'mehmet ali öz',
+    'profileImg':
+        'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg',
+    'videoUrl': 'assets/test_videos/video_1.mp4',
+    'caption':
+        'Safariye çıkmak için para biriktiriyorum. Umarım bu yaz gidebilirim.',
     'isLoved': false,
     'isUnLoved': true,
-    'commentCount': 0,
-    'timeAgo': '1 ay'
+    'lovedCount': 564,
+    'unLovedCount': 1,
+    'timeAgo': '3 gün',
+    'tag': 'Africa',
+    'mention': 'vayfee',
+    'isSaved': false,
+  },
+  {
+    'id': 5,
+    'name': 'fikri35',
+    'fullName': 'fikri yaver',
+    'profileImg':
+        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg',
+    'videoUrl': 'assets/test_videos/video_2.mp4',
+    'caption': 'Açsana gözünü be. Bi fotoğraf çektirtmedin :D',
+    'isLoved': false,
+    'isUnLoved': false,
+    'lovedCount': 641,
+    'unLovedCount': 1,
+    'timeAgo': '4 gün',
+    'tag': 'istanbul',
+    'mention': 'maymuncuk',
+    'isSaved': true,
   },
 ];
