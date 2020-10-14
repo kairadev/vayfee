@@ -4,9 +4,9 @@ List posts = [
     'name': 'ayselgursu',
     'fullName': 'aysel gürsu',
     'profileImg':
-        'https://images.pexels.com/photos/4507269/pexels-photo-4507269.jpeg',
+        'https://itkv.tmgrup.com.tr/album/2019/08/13/hande-ercelin-havuz-pozu-olay-oldu-unlulerin-cok-konusulan-tatil-pozlari-1565693743885.jpg',
     'postImg':
-        'https://images.pexels.com/photos/4596768/pexels-photo-4596768.jpeg',
+        'https://i.pinimg.com/originals/18/76/a3/1876a39b30f5e33a1d4b2e3ff6165409.jpg',
     'caption': 'Güzel ışık',
     'isLoved': false,
     'isUnLoved': false,
@@ -21,11 +21,11 @@ List posts = [
   {
     'id': 2,
     'name': 'tolga',
-    'fullName': 'tolga akçaoğlu',
+    'fullName': 'fadime sungur',
     'profileImg':
-        'https://images.pexels.com/photos/4626735/pexels-photo-4626735.jpeg',
+        'https://idora.gazetevatan.com/vatanmediafile/GaleriHaber/2020/05/09/yasemin-ozilhan-dan-teras-pozlari-4523699.Jpeg',
     'postImg':
-        'https://images.pexels.com/photos/4406725/pexels-photo-4406725.jpeg',
+        'https://idora.gazetevatan.com/vatanmediafile/GaleriHaber/2020/05/09/yasemin-ozilhan-dan-teras-pozlari-4523699.Jpeg',
     'caption':
         'Şöyle sakalı salıp hacı dedeler gibi sandalyede oturmak.. var bi hayalimiz.',
     'isLoved': true,
@@ -42,10 +42,8 @@ List posts = [
     'id': 3,
     'name': 'selvi',
     'fullName': 'selvi uzun',
-    'profileImg':
-        'https://images.pexels.com/photos/2146042/pexels-photo-2146042.jpeg',
-    'postImg':
-        'https://images.pexels.com/photos/1692821/pexels-photo-1692821.jpeg',
+    'profileImg': 'https://icdn.ensonhaber.com/resimler/galeri/3_11126.jpg',
+    'postImg': 'https://i.dugun.com/articles/body/UX0uLSn6Ea7iC95j.jpg',
     'caption': 'Çok iyi değil mi?',
     'isLoved': true,
     'isUnLoved': false,
@@ -62,9 +60,9 @@ List posts = [
     'name': 'mehm_met',
     'fullName': 'mehmet ali öz',
     'profileImg':
-        'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg',
+        'https://www.bursa.com/uploads/or/orduda-cavus-rutbesindeydi-ciplak-pozlariyla-716758_4242_15_b-299818.jpg',
     'postImg':
-        'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg',
+        'https://i4.hurimg.com/i/hurriyet/75/750x422/5d2c3d01d3806c1ea429b77a.jpg',
     'caption':
         'Safariye çıkmak için para biriktiriyorum. Umarım bu yaz gidebilirim.',
     'isLoved': false,
@@ -82,9 +80,9 @@ List posts = [
     'name': 'fikri35',
     'fullName': 'fikri yaver',
     'profileImg':
-        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg',
+        'https://www.abcgundem.com/wp-content/uploads/2020/05/20/20052020163742_1970790_16_37.jpg',
     'postImg':
-        'https://images.pexels.com/photos/3808000/pexels-photo-3808000.jpeg',
+        'https://im.haberturk.com/2020/05/22/2688216_0706796f08b2ac67dee7d2e4a1196c02_640x640.jpg',
     'caption': 'Açsana gözünü be. Bi fotoğraf çektirtmedin :D',
     'isLoved': false,
     'isUnLoved': false,

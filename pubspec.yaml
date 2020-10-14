@@ -30,6 +30,8 @@ dependencies:
   cupertino_icons: ^0.1.3
   line_icons:
   video_player: ^0.10.11+2
+  cached_network_image: ^2.3.2+1
+  flutter_cache_manager: ^1.4.2
 
 dev_dependencies:
   flutter_test:

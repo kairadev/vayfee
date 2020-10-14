@@ -1,4 +1,4 @@
 String profile =
-    'https://images.pexels.com/photos/4406725/pexels-photo-4406725.jpeg';
+    'https://www.gigbi.com/blog/wp-content/uploads/2016/07/1-16.jpg';
 String name = 'tolga';
 String fullname = 'tolga akçaoğlu';

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:vayfee/data/post.dart';
 import 'package:vayfee/data/story.dart';
 import 'package:vayfee/data/user.dart';
 import 'package:vayfee/theme/colors.dart';
 import 'package:vayfee/widgets/story_item.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -42,30 +44,55 @@ class _HomePageState extends State<HomePage> {
                           child: Stack(
                             children: [
                               Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.only(
+                                    topLeft: Radius.circular(16),
+                                    topRight: Radius.circular(16),
+                                    bottomRight: Radius.circular(36),
+                                    bottomLeft: Radius.circular(16),
+                                  ),
+                                ),
                                 width: 65,
                                 height: 65,
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  image: DecorationImage(
-                                    image: NetworkImage(profile),
-                                    fit: BoxFit.cover,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(3.0),
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.only(
+                                      topLeft: Radius.circular(16),
+                                      topRight: Radius.circular(16),
+                                      bottomRight: Radius.circular(36),
+                                      bottomLeft: Radius.circular(16),
+                                    ),
+                                    child: CachedNetworkImage(
+                                      fadeInCurve: Curves.easeInCirc,
+                                      fadeInDuration:
+                                          Duration(milliseconds: 600),
+                                      fit: BoxFit.cover,
+                                      imageUrl: profile,
+                                      progressIndicatorBuilder: (context, url,
+                                              downloadProgress) =>
+                                          CircularProgressIndicator(
+                                              value: downloadProgress.progress),
+                                      errorWidget: (context, url, error) =>
+                                          Icon(Icons.error),
+                                    ),
                                   ),
                                 ),
                               ),
                               Positioned(
                                 right: 0,
-                                top: 0,
+                                bottom: 0,
                                 child: Container(
-                                  width: 19,
-                                  height: 19,
+                                  width: 22,
+                                  height: 22,
                                   decoration: BoxDecoration(
                                     shape: BoxShape.circle,
-                                    color: white,
+                                    color: buttonFollowColor,
                                   ),
                                   child: Icon(
-                                    Icons.add_circle,
-                                    color: buttonFollowColor,
-                                    size: 19,
+                                    Icons.add,
+                                    color: white,
+                                    size: 20,
                                   ),
                                 ),
                               ),
@@ -289,6 +316,10 @@ class PostItem extends StatelessWidget {
             child: Row(
               children: [
                 Container(
+                  decoration: BoxDecoration(
+                    color: Colors.grey[800],
+                    borderRadius: BorderRadius.circular(12),
+                  ),
                   width: MediaQuery.of(context).size.width - 82,
                   child: ConstrainedBox(
                     constraints: BoxConstraints(
@@ -297,9 +328,16 @@ class PostItem extends StatelessWidget {
                     ),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(12),
-                      child: Image.network(
-                        postImg,
+                      child: CachedNetworkImage(
+                        fadeInCurve: Curves.easeInCirc,
+                        fadeInDuration: Duration(milliseconds: 600),
                         fit: BoxFit.cover,
+                        imageUrl: postImg,
+                        progressIndicatorBuilder:
+                            (context, url, downloadProgress) =>
+                                CircularProgressIndicator(
+                                    value: downloadProgress.progress),
+                        errorWidget: (context, url, error) => Icon(Icons.error),
                       ),
                     ),
                   ),

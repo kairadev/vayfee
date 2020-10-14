@@ -18,7 +18,7 @@ List posts = [
     'name': 'ayselgursu',
     'fullName': 'aysel gürsu',
     'profileImg':
-        'https://images.pexels.com/photos/4507269/pexels-photo-4507269.jpeg',
+        'https://i1.wp.com/hohhoyyt.com/wp-content/uploads/2019/03/unawatuna-1-2.jpg',
     'videoUrl': 'assets/test_videos/video_1.mp4',
     'caption': 'Güzel ışık',
     'isLoved': false,
@@ -35,7 +35,7 @@ List posts = [
     'name': 'tolga',
     'fullName': 'tolga akçaoğlu',
     'profileImg':
-        'https://images.pexels.com/photos/4626735/pexels-photo-4626735.jpeg',
+        'https://i.pinimg.com/originals/2e/f2/fb/2ef2fb6916ea5678ae9da8990a58a95c.jpg',
     'videoUrl': 'assets/test_videos/video_2.mp4',
     'caption':
         'Şöyle sakalı salıp hacı dedeler gibi sandalyede oturmak.. var bi hayalimiz.',
@@ -53,7 +53,7 @@ List posts = [
     'name': 'selvi',
     'fullName': 'selvi uzun',
     'profileImg':
-        'https://images.pexels.com/photos/2146042/pexels-photo-2146042.jpeg',
+        'https://i.pinimg.com/originals/6e/01/c0/6e01c0c53414f92a15956905923edef7.jpg',
     'videoUrl': 'assets/test_videos/video_3.mp4',
     'caption': 'Çok iyi değil mi?',
     'isLoved': true,
@@ -70,7 +70,7 @@ List posts = [
     'name': 'mehm_met',
     'fullName': 'mehmet ali öz',
     'profileImg':
-        'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg',
+        'https://iasbh.tmgrup.com.tr/101673/0/0/0/0/504/518?u=https://isbh.tmgrup.com.tr/sbh/2018/08/27/yazin-trendi-market-pozlari-1535390967407.jpeg&mw=486',
     'videoUrl': 'assets/test_videos/video_1.mp4',
     'caption':
         'Safariye çıkmak için para biriktiriyorum. Umarım bu yaz gidebilirim.',
@@ -88,7 +88,7 @@ List posts = [
     'name': 'fikri35',
     'fullName': 'fikri yaver',
     'profileImg':
-        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg',
+        'https://i.pinimg.com/originals/18/76/a3/1876a39b30f5e33a1d4b2e3ff6165409.jpg',
     'videoUrl': 'assets/test_videos/video_2.mp4',
     'caption': 'Açsana gözünü be. Bi fotoğraf çektirtmedin :D',
     'isLoved': false,
